@@ -1,0 +1,84 @@
+body {
+  padding-top: 70px;
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #0f2a44, #1f6f78);
+  padding: 100px 0;
+}
+
+.hero-img {
+  max-width: 420px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* STATS */
+.stats-section {
+  margin-top: -60px;
+}
+
+.stat-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+/* FEATURES */
+.feature-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  transition: all 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+.feature-card .icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* PROCESS */
+.circle-step {
+  width: 60px;
+  height: 60px;
+  background: #0d3b66;
+  color: white;
+  border-radius: 50%;
+  line-height: 60px;
+  margin: auto;
+  font-weight: bold;
+}
+
+/* ROLES */
+.role-card {
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+/* FOOTER */
+.footer-cta {
+  background: #0f2a44;
+  padding: 60px 20px;
+}
