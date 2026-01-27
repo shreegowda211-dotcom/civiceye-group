@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700&display=swap');
+
+body {
+  padding-top: 70px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(120deg, #1e3c72, #2a6f85);
+  padding: 120px 0;
+}
+
+.hero-badge {
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+.hero-img {
+  max-width: 80%;
+}
+
+/* Floating animation */
+.floating {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* STATS */
+.stats-section {
+  margin-top: -50px;
+  margin-bottom: 70px;
+}
+
+.stat-card {
+  background: #fff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* CARDS */
+.hover-card {
+  transition: all 0.3s ease;
+}
+
+.hover-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+/* FEATURES */
+.feature-card {
+  background: #f8f9fa;
+  padding: 35px;
+  border-radius: 14px;
+}
+
+.feature-card .icon {
+  font-size: 34px;
+  margin-bottom: 12px;
+}
+
+/* PROCESS */
+.circle-step {
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(135deg, #0d6efd, #0a58ca);
+  color: #fff;
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* ROLES */
+.role-card {
+  background: #fff;
+  padding: 35px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* FOOTER */
+.footer-top {
+  background: linear-gradient(120deg, #1e3c72, #2a6f85);
+  padding: 90px 20px;
+}
+
+.footer-main {
+  background: #ffffff;
+  padding: 60px 0 30px;
+  font-size: 14px;
+}
+
+.footer-main ul li {
+  margin-bottom: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.footer-main ul li:hover {
+  color: #0d6efd;
+}
+
+.footer-main hr {
+  margin: 30px 0;
+}
